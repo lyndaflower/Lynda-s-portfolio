@@ -1,0 +1,102 @@
+ 
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+body {
+  font-family: "Lato", sans-serif; 
+  transition: background-color .5s;
+  /* background-image: url(https://stmed.net/sites/default/files/gold-lights-wallpapers-25225-8658004.jpg);
+  background-repeat: no-repeat; */
+  
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#000d1a;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+#navigation{
+  position: fixed;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #4da6ff;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#done {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+#home{
+  text-align: center;
+  margin-right: 90px;
+  padding-block-start: 400px;
+  font-size: 12px;
+  opacity: 0.8;
+  background-image: url("https://embedwistia-a.akamaihd.net/deliveries/b4b3ed438ccb6f387670dfb3a6e66b3ba17aed2b.webp?image_crop_resized=1280x720");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+}
+
+#works{
+  /* padding-block-start: 100px; */
+  font-family: 'Anton', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
+
+}
+.button{
+  border-radius: 12px;
+}
+.row{
+  margin-block-end: 70px;
+}
+#skills{
+  padding-block-start: 60px;
+  padding-block-end: 90px;
+}
+#me {
+  text-align: right;
+  margin-right: 70px;
+}
+
+/*insertfooter*/
+
+.footer {
+  background: #000d1a;
+  color: #fff;
+  margin-top: 0;
+  height: 300px;
+  padding: 10px 0;
+  border-top: none;
+}
