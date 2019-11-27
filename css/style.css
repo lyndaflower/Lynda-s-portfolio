@@ -1,9 +1,4 @@
- 
-@media screen and (max-width: 800px) {
-  .left, .main, .right {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
-}
+
 body {
   font-family: "Lato", sans-serif; 
   transition: background-color .5s;
@@ -63,6 +58,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 900px;
+  max-width: 100%; 
   width: 100%;
   color: white;
   font-weight: bold;
